@@ -1,0 +1,107 @@
+{
+  "forecast_cutoff": 2010,
+  "evaluated_country_years": 2821,
+  "evaluated_countries": 217,
+  "arima_failures": 0,
+  "best_model": "ML, LE features only",
+  "all_years": {
+    "ML, LE features only": {
+      "MAE": 0.9973,
+      "Median AE": 0.542,
+      "RMSE": 1.9005,
+      "Bias": 0.3892,
+      "Skill vs persistence": 0.4606
+    },
+    "ML, all indicators": {
+      "MAE": 1.0085,
+      "Median AE": 0.5442,
+      "RMSE": 1.8954,
+      "Bias": 0.3385,
+      "Skill vs persistence": 0.4545
+    },
+    "ARIMA(1,1,0)+drift": {
+      "MAE": 1.5323,
+      "Median AE": 0.8272,
+      "RMSE": 2.7738,
+      "Bias": 0.695,
+      "Skill vs persistence": 0.1712
+    },
+    "Drift (10y)": {
+      "MAE": 1.5557,
+      "Median AE": 0.7493,
+      "RMSE": 3.154,
+      "Bias": 0.6722,
+      "Skill vs persistence": 0.1586
+    },
+    "Persistence": {
+      "MAE": 1.849,
+      "Median AE": 1.2537,
+      "RMSE": 2.9048,
+      "Bias": -1.5546,
+      "Skill vs persistence": 0.0
+    }
+  },
+  "excluding_2020_2022": {
+    "ML, LE features only": {
+      "MAE": 0.7728,
+      "Median AE": 0.419,
+      "RMSE": 1.6651,
+      "Bias": 0.1369,
+      "Skill vs persistence": 0.5527
+    },
+    "ML, all indicators": {
+      "MAE": 0.7955,
+      "Median AE": 0.4301,
+      "RMSE": 1.6759,
+      "Bias": 0.0933,
+      "Skill vs persistence": 0.5396
+    },
+    "ARIMA(1,1,0)+drift": {
+      "MAE": 1.2007,
+      "Median AE": 0.6232,
+      "RMSE": 2.5478,
+      "Bias": 0.3399,
+      "Skill vs persistence": 0.3051
+    },
+    "Drift (10y)": {
+      "MAE": 1.2061,
+      "Median AE": 0.5451,
+      "RMSE": 2.7996,
+      "Bias": 0.3324,
+      "Skill vs persistence": 0.302
+    },
+    "Persistence": {
+      "MAE": 1.7279,
+      "Median AE": 1.1415,
+      "RMSE": 2.7559,
+      "Bias": -1.5126,
+      "Skill vs persistence": 0.0
+    }
+  },
+  "rolling_origin_validation": {
+    "ML, LE features only": {
+      "MAE": 0.6729,
+      "RMSE": 1.4485,
+      "Bias": -0.1403,
+      "Skill vs persistence": 0.3822
+    },
+    "ML, all indicators": {
+      "MAE": 0.6747,
+      "RMSE": 1.4089,
+      "Bias": -0.0924,
+      "Skill vs persistence": 0.3805
+    },
+    "Drift (10y)": {
+      "MAE": 0.7353,
+      "RMSE": 1.5671,
+      "Bias": -0.1205,
+      "Skill vs persistence": 0.3249
+    },
+    "Persistence": {
+      "MAE": 1.0891,
+      "RMSE": 1.6896,
+      "Bias": -0.8727,
+      "Skill vs persistence": 0.0
+    }
+  }
+}

@@ -1,0 +1,9 @@
+total_rows: 17024
+unique_country_codes: 266
+min_year: 1960
+max_year: 2023
+expected_years: 1960-2023
+missing_years: []
+duplicate_country_year_rows: 0
+missing_country_codes: 0
+missing_country_names: 0

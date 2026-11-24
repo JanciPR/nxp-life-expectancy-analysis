@@ -1,0 +1,4 @@
+observation_type,life_expectancy_total,life_expectancy_male,life_expectancy_female,death_rate,fertility_rate
+Country,34,34,34,30,32
+Regional aggregate,0,0,0,0,0
+Unclassified,64,64,64,64,64
